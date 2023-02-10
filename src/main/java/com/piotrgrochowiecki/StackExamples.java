@@ -6,10 +6,11 @@ public class StackExamples {
 
     public static void main(String[] args) {
 
-        Deque<String> stack = new ArrayDeque<>();
-        stack.push("first request");
-        stack.push("second request");
-        stack.push("third request");
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
 
         System.out.println(stack);
         System.out.println(stack.peek());
